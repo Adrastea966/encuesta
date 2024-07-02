@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta de Satisfacción con Soporte Técnico</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <form id="survey-form">
+        <h1>Encuesta de Satisfacción con Soporte Técnico</h1>
+
+        <label>¿Cómo contactó al soporte técnico?</label><br>
+        <input type="radio" name="contacto" value="En persona"> En persona<br>
+        <input type="radio" name="contacto" value="Por teléfono"> Por teléfono<br>
+        <input type="radio" name="contacto" value="Por WhatsApp"> Por WhatsApp<br>
+        <input type="radio" name="contacto" value="Otro"> Otro<br><br>
+
+        <label>¿Cómo calificaría nuestro servicio de soporte?</label><br>
+        <input type="radio" name="calificacion" value="Muy bueno"> Muy bueno<br>
+        <input type="radio" name="calificacion" value="Bueno"> Bueno<br>
+        <input type="radio" name="calificacion" value="Neutral"> Neutral<br>
+        <input type="radio" name="calificacion" value="Malo"> Malo<br>
+        <input type="radio" name="calificacion" value="Muy Malo"> Muy Malo<br><br>
+
+        <label>¿Cómo califica el trabajo?</label><br>
+        <input type="radio" name="trabajo" value="Prolijo"> Prolijo<br>
+        <input type="radio" name="trabajo" value="Desprolijo"> Desprolijo<br><br>
+
+        <label>¿Cuánto tiempo esperó antes de hablar con nuestro empleado de soporte técnico?</label><br>
+        <input type="radio" name="espera" value="Me ayudaron inmediatamente"> Me ayudaron inmediatamente<br>
+        <input type="radio" name="espera" value="Tardaron mucho"> Tardaron mucho<br><br>
+
+        <label>¿Cuánto tiempo tomó resolver tu problema del momento que pidió la asistencia?</label><br>
+        <input type="radio" name="resolucion" value="Fue en un tiempo razonable"> Fue en un tiempo razonable<br>
+        <input type="radio" name="resolucion" value="Se tardó demasiado"> Se tardó demasiado<br><br>
+
+        <label>El empleado de soporte técnico fue amable</label><br>
+        <input type="radio" name="amabilidad" value="Sí"> Sí<br>
+        <input type="radio" name="amabilidad" value="No"> No<br><br>
+
+        <label>Comentarios o sugerencias acerca de nuestro soporte técnico</label><br>
+        <textarea name="comentarios" rows="4" cols="50"></textarea><br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+</body>
+
+</html>

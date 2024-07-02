@@ -1,0 +1,58 @@
+/*Reseteo básico css*/
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*Diseño del sitio*/
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="radio"],
+textarea {
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
